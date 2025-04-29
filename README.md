@@ -67,24 +67,15 @@ AgroBid/
 └── README.md
 🚀 How to Run Locally
 1. Clone the repo
-bash
-Copy
-Edit
-git clone https://github.com/your-username/AgroBid.git
-cd AgroBid
+    git clone https://github.com/your-username/AgroBid.git
+    cd AgroBid
 2. Run Backend
-bash
-Copy
-Edit
-cd backend
-./mvnw spring-boot:run
+    cd backend
+    ./mvnw spring-boot:run
 3. Run Frontend
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm run dev
+    cd frontend
+    npm install
+    npm run dev
 📡 Deployment (AWS)
 Frontend: Deploy using AWS Amplify or S3 + CloudFront
 
